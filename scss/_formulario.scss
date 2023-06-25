@@ -1,0 +1,119 @@
+.ingreso {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+    padding: 20px;
+
+    .acceso_cuenta {
+        width: 500px;
+        height: auto;
+        display: flex;
+
+        .formulario {
+            width: 100%;
+            background-color: $colorformulario;
+            padding: 20px;
+            margin: auto;
+
+            h4 {
+                text-align: center;
+                color: whitesmoke;
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .datos__formulario {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+
+            .boton {
+                width: 100%;
+                padding: 12px;
+                margin: 0 auto;
+                font-size: 1.2rem;
+                background-color: darkcyan;
+            }
+        }
+    }
+
+    .crear_cuenta {
+        width: 500px;
+        height: auto;
+        display: flex;
+
+        .formulario {
+            width: 100%;
+            background-color: $colorformulario;
+            padding: 20px;
+            margin: auto;
+
+            h4 {
+                text-align: center;
+                color: whitesmoke;
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .datos__formulario {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+
+            .boton {
+                width: 100%;
+                padding: 12px;
+                margin: 0 auto;
+                font-size: 1.2rem;
+                background-color: darkcyan;
+            }
+        }
+    }
+}
+
+.formulario_contacto {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+
+    .formulario {
+        width: 50%;
+        background-color: $colorformulario;
+        padding: 30px;
+        margin: auto;
+
+        h4 {
+            text-align: center;
+            color: whitesmoke;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .datos__formulario {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .boton {
+            width: 100%;
+            padding: 12px;
+            margin: 0 auto;
+        }
+
+        .boton2 {
+            width: 100%;
+            padding: 12px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            background-color: darkcyan;
+        }
+    }
+}
